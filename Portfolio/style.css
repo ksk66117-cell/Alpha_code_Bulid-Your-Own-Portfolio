@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+scroll-behavior:smooth;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111;
+color:white;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#00adb5;
+}
+
+/* HOME */
+
+.home{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:#222;
+color:white;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#00adb5;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#008891;
+}
+
+/* SECTIONS */
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+/* SKILLS */
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.skill{
+background:#eee;
+padding:15px 25px;
+border-radius:20px;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#00adb5;
+color:white;
+}
+
+/* PROJECTS */
+
+.projects-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.project-card{
+width:250px;
+padding:20px;
+border:1px solid #ddd;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+padding:15px;
+}
+.typing{
+color:#00adb5;
+font-weight:bold;
+font-size:24px;
+}
